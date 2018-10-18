@@ -11,10 +11,11 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import s.com.capfrontassesment.adapter.ProductListAdapter;
 import s.com.capfrontassesment.businesslogic.GetProductListBL;
 import s.com.capfrontassesment.model.Content;
 import s.com.capfrontassesment.model.GetProductList;
-import s.com.capfrontassesment.networkcall.RetrofitNetworkCallback;
+import s.com.capfrontassesment.networkservices.RetrofitNetworkCallback;
 
 public class MainActivity extends AppCompatActivity {
 

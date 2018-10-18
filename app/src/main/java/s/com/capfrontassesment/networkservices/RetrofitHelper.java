@@ -1,6 +1,4 @@
-package s.com.capfrontassesment.networkcall;
-
-import android.util.Log;
+package s.com.capfrontassesment.networkservices;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -10,11 +8,9 @@ import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 
 public class RetrofitHelper {
-    Retrofit retrofit;
     String baseurl = "https://api.myjson.com/";
 
 

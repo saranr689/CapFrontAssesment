@@ -1,4 +1,4 @@
-package s.com.capfrontassesment.networkcall;
+package s.com.capfrontassesment.networkservices;
 
 public interface RetrofitNetworkCallback<E> {
     void success(E s);

@@ -1,4 +1,4 @@
-package s.com.capfrontassesment.networkcall;
+package s.com.capfrontassesment.networkservices;
 
 
 import java.util.concurrent.TimeUnit;
@@ -13,7 +13,6 @@ public class RetrofitObject {
     private RetrofitObject() {
 
     }
-
 
 
     public static Retrofit getRetrofitObj(String baseurl) {

@@ -2,8 +2,8 @@ package s.com.capfrontassesment.businesslogic;
 
 import android.util.Log;
 
-import s.com.capfrontassesment.networkcall.RetrofitHelper;
-import s.com.capfrontassesment.networkcall.RetrofitNetworkCallback;
+import s.com.capfrontassesment.networkservices.RetrofitHelper;
+import s.com.capfrontassesment.networkservices.RetrofitNetworkCallback;
 
 
 public class GetProductListBL {
