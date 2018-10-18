@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_split_banner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <ImageView
+        android:id="@+id/splitbanner_img1"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:src="@drawable/ic_shopping_cart" />
+
+    <ImageView
+        android:id="@+id/splitbanner_img2"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:src="@drawable/ic_shopping_cart" />
+
+</LinearLayout>
